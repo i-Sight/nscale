@@ -10,7 +10,7 @@
     "docker",
     "scale"
   ],
-  "version": "0.17.0-pre10",
+  "version": "1.0.0",
   "license": "Artistic License 2.0",
   "bin": {
     "nscale": "./node_modules/.bin/nscale",
@@ -27,18 +27,18 @@
     "node": "*"
   },
   "dependencies": {
-    "mkdirp": "^0.5.0",
-    "lodash": "^2.4.1",
+    "mkdirp": "~0.5.1",
+    "lodash": "~2.4.2",
     "nscale-client": "~0.17.2",
-    "nscale-kernel": "~0.17.7",
-    "osenv": "^0.1.0"
+    "nscale-kernel": "~0.17.9",
+    "osenv": "~0.1.4"
   },
   "devDependencies": {
-    "jsonlint": "^1.6.2",
-    "pre-commit": "0.0.9"
+    "jsonlint": "~1.6.2",
+    "pre-commit": "~0.0.9"
   },
   "scripts": {
-    "test": "jsonlint -q config/default-config.json"
+    "test": "jsonlint -q config/default-config.json && jsonlint -q package.json"
   },
   "pre-commit": [
     "test"
