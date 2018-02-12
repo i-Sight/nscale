@@ -10,7 +10,7 @@
     "docker",
     "scale"
   ],
-  "version": "0.17.4-isight",
+  "version": "0.17.5-isight",
   "license": "Artistic License 2.0",
   "bin": {
     "nscale": "./node_modules/.bin/nscale",
@@ -30,7 +30,7 @@
     "mkdirp": "^0.5.0",
     "lodash": "^2.4.1",
     "nscale-client": "~0.17.2",
-    "nscale-kernel": "https://github.com/i-Sight/nscale-kernel#v0.17.13-isight",
+    "nscale-kernel": "https://github.com/i-Sight/nscale-kernel#v0.17.14-isight",
     "osenv": "^0.1.0"
   },
   "devDependencies": {
